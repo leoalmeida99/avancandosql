@@ -20,3 +20,7 @@ select * from tabela_de_vendedores where nome like '%marcio%';
 
 select * from tabela_de_vendedores where matricula like '%36%';
 
+-- BUSCANDO CLIENTES --
+-- Quantos clientes possuem o último sobrenome Mattos? --
+select * from tabela_de_clientes;
+select * from tabela_de_clientes where nome like '%mattos%';
